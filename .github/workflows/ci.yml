@@ -16,7 +16,7 @@ jobs:
       runs-on: ubuntu-latest
       env:
         HADOOP_VERSION: "2.7"
-        SCALA_VERSION: "2.12.11"
+        SCALA_VERSION: "2.12.8"
         DOCKERHUB_USR: ${{ secrets.DOCKERHUB_USR }}
         DOCKERHUB_PWD: ${{ secrets.DOCKERHUB_PWD }}
 
@@ -169,7 +169,7 @@ jobs:
     name: JupyterLab Images
     runs-on: ubuntu-latest
     env:
-      SCALA_VERSION: "2.12.11"
+      SCALA_VERSION: "2.12.8"
       JUPYTERLAB_VERSION: "2.1.4"
       DOCKERHUB_USR: ${{ secrets.DOCKERHUB_USR }}
       DOCKERHUB_PWD: ${{ secrets.DOCKERHUB_PWD }}

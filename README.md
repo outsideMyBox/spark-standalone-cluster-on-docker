@@ -96,7 +96,7 @@ docker-compose up
 | Docker Engine  | 1.13.0+ |
 | Docker Compose | 1.10.0+ |
 | Python         | 3.7.3   |
-| Scala          | 2.12.11 |
+| Scala          | 2.12.8  |
 | R              | 3.5.2   |
 
 - Jupyter Kernels
